@@ -1,9 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net48</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Chuongmep.Civil3D.Api.AutoCADNodes" Version="2024.0.0" />
+      <PackageReference Include="DynamoVisualProgramming.ZeroTouchLibrary" Version="2.19.4.6625" />
+      <PackageReference Include="Speckle.Civil3D.API" Version="2024.0.0" />
+    </ItemGroup>
 
 </Project>
